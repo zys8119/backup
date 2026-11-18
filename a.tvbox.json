@@ -1,0 +1,127 @@
+{
+  "name": "洛雪TV(采集源)",
+  "sites": [
+    {
+      "key": "360zy",
+      "name": "360资源",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "dytt",
+      "name": "电影天堂",
+      "type": 1,
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "ikun",
+      "name": "ikun",
+      "type": 1,
+      "api": "https://ikunzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "modu",
+      "name": "魔都",
+      "type": 1,
+      "api": "https://mdzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "默认解析",
+      "type": 0,
+      "url": "https://svip.qlplayer.cyou/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "qiyi",
+          "iqiyi",
+          "youku",
+          "mgtv",
+          "bilibili",
+          "wasu",
+          "letv"
+        ]
+      }
+    },
+    {
+      "name": "无名",
+      "type": 0,
+      "url": "https://jx.wmxz.online/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "qiyi",
+          "iqiyi",
+          "youku",
+          "mgtv",
+          "bilibili"
+        ]
+      }
+    },
+    {
+      "name": "闪电",
+      "type": 0,
+      "url": "https://bfq.txnp.cn/excessive?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "qiyi",
+          "iqiyi",
+          "youku",
+          "mgtv",
+          "bilibili"
+        ]
+      }
+    },
+    {
+      "name": "洛雪聚合",
+      "type": 0,
+      "url": "https://jx.lxyy.club/index.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "qiyi",
+          "iqiyi",
+          "youku",
+          "mgtv",
+          "bilibili"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "youku",
+    "mgtv",
+    "bilibili",
+    "wasu",
+    "letv"
+  ],
+  "lives": [
+    {
+      "name": "洛雪自营",
+      "type": 0,
+      "url": "https://iptv.lxyy.club/u/bMXCU2RNxbLLgM9Llt5Bbw7O/m3u",
+      "epg": "https://iptv.lxyy.club/u/bMXCU2RNxbLLgM9Llt5Bbw7O/playback.xml"
+    }
+  ]
+}
